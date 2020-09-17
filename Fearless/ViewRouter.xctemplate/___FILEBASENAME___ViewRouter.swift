@@ -6,8 +6,20 @@
 //  ___COPYRIGHT___
 //
 
-import UIKit
+import Foundation
 
-class ___FILEBASENAMEASIDENTIFIER___ {
+protocol ___FILEBASENAMEASIDENTIFIER___: ViewRouter {
+	
+}
 
+class ___FILEBASENAMEASIDENTIFIER___Implementation: ___FILEBASENAMEASIDENTIFIER___ {
+	
+	fileprivate weak var mViewController: ___FILEBASENAME___ViewController?
+	
+	init(mViewController: ___FILEBASENAME___ViewController) {
+		
+		self.mViewController = mViewController
+		
+	}
+	
 }

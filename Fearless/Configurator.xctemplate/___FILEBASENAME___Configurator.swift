@@ -6,8 +6,25 @@
 //  ___COPYRIGHT___
 //
 
-import UIKit
+import Foundation
 
-class ___FILEBASENAMEASIDENTIFIER___ {
+protocol ___FILEBASENAMEASIDENTIFIER___ {
+	
+	func configure(mViewController: ___FILEBASENAME___ViewController)
+	
+}
 
+class ___FILEBASENAMEASIDENTIFIER___Implementation: ___FILEBASENAMEASIDENTIFIER___ {
+	
+	func configure(mViewController: ___FILEBASENAME___ViewController) {
+		
+		let router = ___FILEBASENAME___ViewRouterImplementation(mViewController: mViewController)
+		
+		let presenter = ___FILEBASENAME___PresenterImplementation(view: mViewController,
+															  router: router)
+		
+		
+		mViewController.presenter = presenter
+	}
+	
 }
