@@ -10,4 +10,12 @@ import UIKit
 
 class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
     
+    var presenter: ___VARIABLE_productName___Presenter!
+    var configurator = ___VARIABLE_productName___ConfiguratorImplementation()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        configurator.configure(mViewController: self)
+	}
 }

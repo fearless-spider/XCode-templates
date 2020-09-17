@@ -10,17 +10,17 @@ import Foundation
 
 protocol ___FILEBASENAMEASIDENTIFIER___ {
 	
-	func configure(mViewController: ___FILEBASENAME___ViewController)
+	func configure(mViewController: ___VARIABLE_productName___ViewController)
 	
 }
 
 class ___FILEBASENAMEASIDENTIFIER___Implementation: ___FILEBASENAMEASIDENTIFIER___ {
 	
-	func configure(mViewController: ___FILEBASENAME___ViewController) {
+	func configure(mViewController: ___VARIABLE_productName___ViewController) {
 		
-		let router = ___FILEBASENAME___ViewRouterImplementation(mViewController: mViewController)
+		let router = ___VARIABLE_productName___ViewRouterImplementation(mViewController: mViewController)
 		
-		let presenter = ___FILEBASENAME___PresenterImplementation(view: mViewController,
+		let presenter = ___VARIABLE_productName___PresenterImplementation(view: mViewController,
 															  router: router)
 		
 		

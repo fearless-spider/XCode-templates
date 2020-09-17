@@ -8,22 +8,22 @@
 
 import Foundation
 
-protocol ___FILEBASENAME___View: class {
+protocol ___VARIABLE_productName___View: class {
 	
 }
 
 protocol ___FILEBASENAMEASIDENTIFIER___ {
 	
-	var router: ___FILEBASENAME___ViewRouter { get }
+	var router: ___VARIABLE_productName___ViewRouter { get }
 	
 }
 
 class ___FILEBASENAMEASIDENTIFIER___Implementation: ___FILEBASENAMEASIDENTIFIER___ {
 	
-	let router: ___FILEBASENAME___ViewRouter
-	fileprivate weak var view: ___FILEBASENAME___View?
+	let router: ___VARIABLE_productName___ViewRouter
+	fileprivate weak var view: ___VARIABLE_productName___View?
 	
-	init(view: ___FILEBASENAME___View, router: ___FILEBASENAME___ViewRouter) {
+	init(view: ___VARIABLE_productName___View, router: ___VARIABLE_productName___ViewRouter) {
 		
 		self.view = view
 		self.router = router

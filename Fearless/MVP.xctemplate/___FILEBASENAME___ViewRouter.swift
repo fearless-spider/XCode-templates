@@ -14,9 +14,9 @@ protocol ___FILEBASENAMEASIDENTIFIER___: ViewRouter {
 
 class ___FILEBASENAMEASIDENTIFIER___Implementation: ___FILEBASENAMEASIDENTIFIER___ {
 	
-	fileprivate weak var mViewController: ___FILEBASENAME___ViewController?
+	fileprivate weak var mViewController: ___VARIABLE_productName___ViewController?
 	
-	init(mViewController: ___FILEBASENAME___ViewController) {
+	init(mViewController: ___VARIABLE_productName___ViewController) {
 		
 		self.mViewController = mViewController
 		
